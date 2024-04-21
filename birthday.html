@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シヨウさんの誕生日</title>
+    <style>
+        body{
+            margin: 8px;
+            background-color: rgb(236, 246, 238);
+        }
+        .flex{
+            display: flex;
+        }
+        .flex1{
+            flex:1;
+        }
+        .mg8{
+            margin: 8px;
+        }
+        .mgr8{
+            margin-right: 8px;
+        }
+        .mgt8{
+            margin-top: 8px;
+        }
+        .mgb8{
+            margin-bottom: 8px;
+        }
+        .mgl8{
+            margin-left: 8px;
+        }
+        .shadow{
+            box-shadow:  rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        }
+        .center{
+            text-align: center;
+        }
+        .fixed-top{
+            position: fixed; /* 固定位置 */
+            z-index: 999;
+        }
+        .baise{
+            background-color: rgb(255, 255, 255);
+        }
+        .center{
+            text-align: center;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .gap{
+            padding: 15px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 700;
+            font-style:italic;
+            color: rgb(27, 96, 27);
+        }
+        a{
+            color: rgb(21, 160, 148);
+            font-weight: 550;
+        }
+        
+
+        
+    </style>
+</head>
+<body class="flex">
+    <!--主区域-->
+    <div class="flex flex1 column">
+        <!--头部栏-->
+        <div style="height: 100px;z-index: 1;" class="baise shadow mgb8 flex">
+            <div>
+                <a href="http://127.0.0.1:5500/mainpage.html">
+                    <img src="https://pic.imgdb.cn/item/6625324b0ea9cb1403fbcf32.png" alt="music_icon" style="height: 70px;padding-left: 17px;padding-top: 17px;padding-right: 100px;">
+                </a>
+                
+            </div>
+            
+
+        </div>
+        <!--内容区-->
+        <div class="flex">
+            <!--左区-->
+            <div>
+                <img src="https://pic.imgdb.cn/item/662532840ea9cb1403fc43fb.png" alt="back" style="height: 550px;">
+            </div>
+            <!--右区-->
+            <div style="width: 500px;">
+                <!--小蛋糕标识-->
+                <div class="center">
+                    <img src="https://pic.imgdb.cn/item/662532960ea9cb1403fc6aeb.png" style="height: 100px;padding-top: 70px">
+                    <div class="gap"><p style="font-size: 22px;">~2024.04.22 MONDAY 月曜日~</p></div>
+                    <div class="gap"><p>DEAR Zhou Ningzhi-シヨウさん</p></div>
+                    <div class="gap"><p>HAPPY BIRTHDAY!-お誕生日おめでとう!</p></div>
+                </div>
+                <!--跳转网页-->
+                <div>
+                    <div class="center gap">
+                        <a href="http://127.0.0.1:5500/letter.html" >-LETTER FOR YOU-</a>
+                    </div>
+                    <div class="center gap">
+                        <a href="http://127.0.0.1:5500/memories.html">-MEMORIES-</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <!--底部栏-->
+        <div class="center" style="padding: 50px;">
+            <p>"All the best wishes for you"</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
